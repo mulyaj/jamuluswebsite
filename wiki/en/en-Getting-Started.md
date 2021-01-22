@@ -15,43 +15,45 @@ _Jamulus works on the client server principle. Everybody’s audio is sent to a 
 
 &nbsp;
 
-## System and Hardware Requirements
+## Minimum System Requirements
 
-  - **Windows 10**, **macOS** (**macOS X** El Capitan v10.11 or higher), or **Linux** with a minimum **1.5Hz Processor**. 
-  &nbsp;
- - **A wired internet connection** (don't use Wi-Fi, it will cause sound problems). Most broadband <br> connections will be fine[^1].
-  &nbsp;
-- **Wired headphones - not speakers** to prevent echo or feedback and to minimize delay[^2].
+- OS: **Windows 10**, **macOS** (El Capitan v10.11 or higher), or **Linux**.   
 
+- Processor: **@ 1.5 GHz**.  
 
 &nbsp;
 
 ## Recommended hardware
 
-- **An audio interface with a sample rate of 48Hz (DVD quality).** On Windows it's recommended to choose a device with a native [ASIO](https://en.wikipedia.org/wiki/Audio_Stream_Input/Output) driver.
-    &nbsp;
-  **and/or**
+- A **wired internet connection**; most broadband connections will be fine.[^1]
+
+- **A pair of wired headphones** to prevent echo and/or feedback and to minimize delay.[^2]  
+
+- **An audio interface** with a **sample rate of 48Hz (DVD quality).** On Windows we recommend choosing a device with a native [ASIO](https://en.wikipedia.org/wiki/Audio_Stream_Input/Output) driver.   
+
+- **A USB microphone** for singers and acoustic instruments.  
+
+
+
+See [our community list of recommended hardware](/kb/2021/01/05/Jamulus-Sound-Devices.html) and our [hardware set up guide](en-Hardware-Setup.md).
+
 &nbsp;
-- **USB microphone** for singers and acoustic instruments
+
+## Ready to go? Check out our Installation Guides! 
 
 
-<br> See [our community list of known good hardware](/kb/2021/01/05/Jamulus-Sound-Devices.html) and our [Hardware Setup Guide](en-Hardware-Setup.md).
 
-&nbsp;
-
-## Installation
-
-<div class="fx-row fx-row-start-xs button-container">
-  <a href="Installation-for-Windows" class="button fx-col-100-xs">Windows Set-up Guide</a>
-  <a href="Installation-for-Macintosh" class="button fx-col-100-xs">Setting up J macOS</a>
-  <a href="Installation-for-Linux" class="button fx-col-100-xs">For Linux users</a>
+<div class="fx-row fx-row-start-xs button-container" style="margin: 10px 0px;">
+  <a href="Installation-for-Windows" class="button fx-col-100-xs">Windows Setup</a>
+  <a href="Installation-for-Macintosh" class="button fx-col-100-xs">macOS Setup</a>
+  <a href="Installation-for-Linux" class="button fx-col-100-xs">Linux Setup</a>
 </div>
 
 
 Also - [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/) Run Jamulus on any computer using a USB stick (64-bit systems only). Checks your hardware and sets you up like a boss straight out of the box!
 &nbsp;
-## Other guides
-* [This excellent guide](https://www.facebook.com/notes/jamulus-online-musicianssingers-jamming/idiots-guide-to-jamulus-app/510044532903831/){: target="_blank" rel="noopener noreferrer"} by [Simon Tomlinson](https://www.facebook.com/simon.james.tomlinson?eid=ARBQoY3KcZAtS3pGdLJuqvQTeRSOo4gHdQZT7nNzOt1oPMGgZ4_3GERe-rOyH5PxsSHVYYXjWwcqd71a){: target="_blank" rel="noopener noreferrer"} (_Facebook_) might also be worth a view.
+### Other guides
+[This excellent guide](https://www.facebook.com/notes/jamulus-online-musicianssingers-jamming/idiots-guide-to-jamulus-app/510044532903831/){: target="_blank" rel="noopener noreferrer"} by [Simon Tomlinson](https://www.facebook.com/simon.james.tomlinson?eid=ARBQoY3KcZAtS3pGdLJuqvQTeRSOo4gHdQZT7nNzOt1oPMGgZ4_3GERe-rOyH5PxsSHVYYXjWwcqd71a){: target="_blank" rel="noopener noreferrer"} (_Facebook_) might also be worth a view.
 
 &nbsp;
 
