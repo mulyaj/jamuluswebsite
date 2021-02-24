@@ -1,29 +1,38 @@
 nav:
+- title:                 Downloads
+  url:                   /wiki/Downloads
+
+- title:                 Setting up Jamulus
+  subfolderitems:    
+    - page:              Setting up Jamulus # to be deleted 
+      url:               /wiki/Installation-for-WindowsDuplicate
+    - page:              Windows
+      url:               /wiki/Installation-for-Windows
+    - page:              macOS
+      url:               /wiki/Installation-for-Macintosh
+    - page:              Linux
+      url:               /wiki/Installation-for-Linux
+    
 - title:                 Using Jamulus
-  subfolderitems:
+  subfolderitems:  
     - page:              Getting Started
-      url:               /wiki/Getting-Started
-      subsubfolderitems:
-        - page:          Windows
-          url:           /wiki/Installation-for-Windows
-        - page:          macOS
-          url:           /wiki/Installation-for-Macintosh
-        - page:          Linux
-          url:           /wiki/Installation-for-Linux
-    - page:              Onboarding
       url:               /wiki/Onboarding
-    - page:              Software Manual
+    - page:              Reference Manual
       url:               /wiki/Software-Manual
-    - page:              Troubleshooting
+    - page:              Tips & Tricks
+      url:               /wiki/Tips-Tricks-More
+    - page:              Troubleshooting & FAQ
       url:               /wiki/Client-Troubleshooting
-- title:                 More
+
+- title:                 Advanced
   subfolderitems:
     - page:              Running a Server
       url:               /wiki/Running-a-Server
-    - page:              Configuration
+    - page:              Command Line Options
       url:               /wiki/Command-Line-Options
-    - page:              Tips & Tricks
-      url:               /wiki/Tips-Tricks-More
+    
+- title:                 More
+  subfolderitems:
     - page:              Community Knowledge Base
       url:               /kb/index.html
       selectOnLayout:    "post"
