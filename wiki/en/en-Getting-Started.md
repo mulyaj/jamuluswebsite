@@ -19,6 +19,8 @@ permalink: "/wiki/Getting-Started"
 
 Try to make sure nothing on your machine or your network (like a video stream) is competing against Jamulus when you are using it.
 
+{% include screenshot.html file="audio-quality.png" %}
+
 ### 2. Use an audio interface/external microphone, not your internal sound card
 
 We strongly recommend – although you could start without it – using an audio interface (a box you plug a microphone/instrument into and connect to your PC e.g. via USB) to enjoy higher quality sound with low latency in Jamulus. You can also use a USB microphone. See [recommended hardware](#recommended-hardware).
