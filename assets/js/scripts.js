@@ -1,5 +1,6 @@
+//collapsible button
+
 var coll = document.getElementsByClassName("collapsible");
-var arrows = document.getElementsByClassName("arrow");
 var i;
 
 for (i = 0; i < coll.length; i++) {
