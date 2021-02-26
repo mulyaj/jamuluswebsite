@@ -5,13 +5,17 @@ lang: "en"
 permalink: "/wiki/Installation-for-Windows"
 ---
 
-{% include breadcrumb.html root="Using Jamulus" branch1="Getting Started" branch1-url="Getting-Started" %}
+{% include breadcrumb.html root="Setting Up Jamulus" branch1="Windows" %}
 
 # Windows Setup (Guide)
 
 ## Requirements
 
-- **ASIO Driver** (If you have a sound card/interface, use its native ASIO driver. If you don't have an sound card/interface, you should download and install [ASIO4ALL](https://www.asio4all.org){: target="_blank" rel="noopener noreferrer"} or an equivalent ASIO driver.)
+- **ASIO Driver** (If you have a sound card/interface, use its native ASIO driver. If you don't have an sound card/interface, you should download a generic driver like ASIO4ALL or an equivalent ASIO driver.)
+
+    [ASIO4ALL v2.14 Download](https://github.com/jamulussoftware/assets/raw/main/ASIO4ALL_2_14_English.exe){: .button}
+
+    [ASIO4ALL v2.13 Download](https://github.com/jamulussoftware/assets/raw/main/ASIO4ALL_2_13_English.exe){: .button}
 
 
 ## Installation
@@ -46,19 +50,27 @@ permalink: "/wiki/Installation-for-Windows"
 <p>
 <ol>
 
-<li>Make sure your desired interfaces and/or instruments are plugged into your computer.</li>
+<li>Make sure your interfaces, instruments/mics and headphones are plugged into your computer.</li>
 
 <li>Close all other programs.</li>
 
 <li>Run Jamulus and click on the <i>Settings</i> panel.</li>
 
-<li>Click on <i>ASIO Device Setup</i>. This will open the ASIO4ALL setup window.</li>
+<li>Click on <i>ASIO Device Setup</i>. This will open the ASIO4ALL setup window.
+{% include screenshot.html file="asio-device-setup.png" alt="Asio device setup" %}
+</li>
 
-<li>Click on the wrench icon on the bottom right to enable advanced view.</li>
+<li>Click on the wrench icon on the bottom right to enable advanced view.
+{% include screenshot.html file="asio-setup-wrench.png" alt="ASIO4ALL advanced view toggle" %}
+</li>
 
-<li>Enable only the soundcard you want to use by clicking on the power button to the left. To see its inputs and outputs, click on the plus button and enable your inputs and outputs by clicking the power button next to its name.</li>
+<li>Enable only the soundcard you want to use by clicking on the power button to the left. To see its inputs and outputs, click on the plus button and enable your inputs and outputs by clicking the power button next to its name.
+{% include screenshot.html file="asio-setup-inputs.png" alt="ASIO4ALL setup for inputs/outputs" %}
+</li>
 
-<li>Go back to your Jamulus settings, and select your inputs and outputs under <i>Input Channel Mapping</i> and <i>Output Channel Mapping</i>.</li>
+<li>Go back to your Jamulus settings, and select your inputs and outputs under <i>Input Channel Mapping</i> and <i>Output Channel Mapping</i>.
+{% include screenshot.html file="asio-setup-mapping.png" alt="Input/output channel mappings" %}
+</li>
 
 <li>To check if your audio is working correctly, connect to a server to hear your instrument or voice.</li>
 </ol>
@@ -73,8 +85,8 @@ permalink: "/wiki/Installation-for-Windows"
 *Concerning the inputs/outputs: Headphones and speakers are often labelled as output and microphones as inputs or capture.*
 
 
-## All installed?
+## All set up?
 
-Jamulus has been installed and can be used now. You can now take a look at the
+Take a look at the onboarding page to get started with Jamulus!
 
 [Jamulus Onboarding page](Onboarding){: .button}
